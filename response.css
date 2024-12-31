@@ -1,0 +1,289 @@
+@media (max-width:600px) {
+    body {
+        height: 100%;
+        overflow-x: hidden;
+    }
+
+    header {
+        padding: 1% 4%;
+        height: 10%;
+    }
+
+    .logo>h3 {
+        display: none;
+    }
+
+    .nav>button {
+        display: none;
+    }
+
+    .nav>i {
+        display: block;
+        color: black;
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    .msg-icon {
+        top: 60%;
+        right: 2.7%;
+    }
+
+    .bottom-navbar {
+        height: 64.2px;
+    }
+
+    .bnavtext {
+        font-size: 13px;
+        line-height: 15px;
+        width: 48%;
+    }
+
+    .bnavbtncntr {
+        margin-left: 33px;
+    }
+
+    .bnavbtn {
+        font-size: 12px;
+        line-height: 15px;
+        padding: 8px 6px;
+    }
+
+    .home-contaner {
+        height: 211px;
+        background: url('./images/homemobile.png');
+        background-size: 100.3% 100.2%;
+    }
+
+    .home-text {
+        padding-left: 20px;
+        width: 359.2px;
+        height: 151.82px;
+    }
+
+    .home-contaner h1 {
+        width: 339.2px;
+        height: 57.83px;
+        padding: 0px 152.637px 0px 0px;
+        font-size: 23px;
+        line-height: 29px;
+    }
+
+    .home-contaner p {
+        width: 339.2px;
+        height: 45px;
+        padding: 0px 145.85px 0px 0px;
+        font-size: 12px;
+        line-height: 15px;
+        margin: 5px 0px 15px;
+    }
+
+    .home-contaner button {
+        font-size: 12px;
+        width: 133px;
+        height: 29px;
+    }
+
+    .second {
+        width: 356px;
+        height: 3158px;
+        padding: 0px 15px;
+    }
+
+    .sec-left {
+        display: none;
+    }
+
+    .sec-right {
+        width: 102%;
+        background-color: #ffffff;
+    }
+
+    .searchbox {
+        width: 101.6%;
+        height: 55.8px;
+        padding: 0px 0px 0px 19px;
+    }
+
+    .searchbox-container {
+        margin-bottom: 20.5%;
+    }
+
+    .searchbox-container i {
+        font-size: 21px;
+    }
+
+    .search-buttons>span {
+        display: none;
+    }
+
+    .search-buttons>button {
+        display: none;
+    }
+
+    .reset {
+        display: none;
+    }
+
+    .cards-container {
+        flex-direction: column;
+        /* margin-top: -40px; */
+    }
+
+    .card1 {
+        margin-bottom: 1rem;
+        width: 325px;
+        height: 452px;
+        border: none;
+    }
+
+    .card-image {
+        width: 325.2px;
+        height: 170px;
+    }
+
+    .card-content {
+        margin-top: 4px;
+        width: 325px;
+        height: 275px;
+    }
+
+    .card-content h4 {
+        overflow: hidden;
+    }
+
+    .fund-info p {
+        font-size: 14px;
+    }
+
+    .fund-info span {
+        font-size: 17px;
+    }
+
+    .view-fundraisers {
+        display: inline;
+    }
+
+    .left-view {
+        height: 112px;
+        width: 330px;
+        gap: 0px;
+        z-index: 100;
+    }
+
+    .img-girls img {
+        width: 109px;
+        height: 92px;
+    }
+
+    .view-text {
+        padding-top: 0%;
+        margin-left: -10px;
+    }
+
+    .view-text p {
+        margin-top: 4px;
+        margin-left: -20px;
+        font-size: 11px;
+        width: 150%;
+    }
+
+    .view-text h2 {
+        margin-top: 1.5%;
+        margin-left: -20px;
+        font-size: 20px;
+    }
+
+    .view-text button {
+        margin-left: -20px;
+        font-size: 9px;
+    }
+
+    .right-view {
+        max-width: 330px;
+        margin-top: 20px;
+        padding: 17px 22px;
+    }
+
+    .sign {
+        margin-top: 9.5%;
+        width: 100vw;
+        margin-left: -16px;
+        margin-bottom: -14px;
+        border-top-left-radius: 1px;
+        border-top-right-radius: 1px;
+    }
+
+    .sign h1 {
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+        font-size: 15px;
+        line-height: 20px;
+        width: 200px;
+        margin-top: -12px;
+    }
+
+    .form-container {
+        width: 310px;
+        height: 30px;
+        left: 6.5%;
+        top: 4.5px;
+    }
+
+    .input-wrapper select,
+    .input-wrapper input {
+        font-size: 12px;
+        padding: 0;
+    }
+
+    .input-wrapper select {
+        width: 15px;
+    }
+
+    .input-wrapper button {
+        height: 39.3px;
+        width: 400px;
+        margin-bottom: 0px;
+        font-size: 12px;
+        top: 0px;
+        left: 0.8px;
+        letter-spacing: -.2px;
+        font-weight: 600;
+    }
+
+    .input-wrapper button i {
+        font-weight: 400;
+        font-size: 15px;
+    }
+
+    .blur-card {
+        filter: blur(1.2px);
+    }
+
+    .learn {
+        margin-top: 4.5%;
+    }
+
+    .que-container {
+        display: none;
+    }
+
+    .right-btn button {
+        display: none;
+    }
+
+    /* ===================footer=========== */
+    footer {
+        margin-top: 12%;
+        padding-left: 8%;
+        padding-bottom: 100px;
+        display: block;
+        gap: 10px;
+        top: 296.5%;
+    }
+
+    .foo1-b0x>h2 {
+        text-align: center;
+    }
+}
